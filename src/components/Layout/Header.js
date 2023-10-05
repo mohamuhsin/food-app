@@ -10,7 +10,7 @@ const Header = () => {
         <h1>Food Order App</h1>
         <button>Cart</button>
       </header>
-      <div className={classes["main - image"]}>
+      <div className={classes["main-image"]}>
         <img src={mealsImage} alt="table full of meals" />
       </div>
     </Fragment>
