@@ -1,5 +1,7 @@
 import React, { Fragment } from "react";
 
+const mealsImage = "../../";
+
 const Header = () => {
   return (
     <Fragment>
