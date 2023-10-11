@@ -1,4 +1,5 @@
 import React from "react";
+import classes from "./MealItemForm.module.css";
 
 const MealItemForm = () => {
   return (
@@ -8,3 +9,5 @@ const MealItemForm = () => {
     </form>
   );
 };
+
+export default MealItemForm;
