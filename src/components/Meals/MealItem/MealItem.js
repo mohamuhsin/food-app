@@ -1,7 +1,9 @@
+import React from "react";
 import classes from "./mealItem.module.css";
 
 const MealItem = (props) => {
   const price = `$${props.price.toFixed(2)}`;
+
   return (
     <li className={classes.meal}>
       <div>
