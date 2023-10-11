@@ -3,7 +3,7 @@ import classes from "./MealItemForm.module.css";
 
 const MealItemForm = () => {
   return (
-    <form>
+    <form className={classes.form}>
       <input />
       <button> + Add</button>
     </form>
