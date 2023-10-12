@@ -2,7 +2,7 @@ import classes from "./Cart.module.css";
 
 const Cart = (props) => {
   const cartItems = (
-    <ul>
+    <ul className={classes["cart-items"]}>
       {[{ id: "c1", name: "sushi", amount: 2, price: 12.99 }].map((item) => (
         <li>{item.name}</li>
       ))}
@@ -11,8 +11,14 @@ const Cart = (props) => {
   return (
     <div>
       {cartItems}
-      <div></div>
-      <div></div>
+      <div className={classes.total}>
+        <span>Total Amount</span>
+        <span>35.62</span>
+      </div>
+      <div>
+        <button className={classes["button--alt"]}>Close</button>
+        <button className={classes.button}>Order</button>
+      </div>
     </div>
   );
 };
